@@ -6,8 +6,7 @@
 import { MapPin, School, GraduationCap, Quote, Sparkles } from 'lucide-react';
 import { DIANA_PROFILE } from '../data';
 import { motion } from 'motion/react';
-
-const dianaProfile = "src\\assets\\images\\foto-diana.jpeg";
+import dianaProfile from '../assets/images/foto-diana.jpeg';
 
 export default function StudentProfile() {
   return (
