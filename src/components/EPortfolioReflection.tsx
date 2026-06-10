@@ -28,25 +28,31 @@ export default function EPortfolioReflection() {
   const refleksiAspek = [
     {
       id: "aspek-1",
-      question: "Apa yang telah dipelajari sebagai calon guru selama tahapan PPL Terbimbing dari awal hingga akhir?",
-      answer: "Selama menjalani tahapan PPL Terbimbing di SMA Kristen 1 Salatiga, pelajaran terbesar yang saya peroleh adalah bahwa mengajar tidak sekadar mentransfer baris sintaks Python atau membagikan slide presentasi. Saya belajar mengintegrasikan kerangka TPACK (Technological Pedagogical Content Knowledge) secara bermakna untuk merespons gaya belajar digital siswa. Pembelajaran harus berpusat sepenuhnya pada siswa (student-centered), di mana rancangan modul ajar, LKPD, dan media kuis online dirajut secara koheren untuk menuntun siswa menemukan sendiri pemecahan masalah (Problem-Based Learning) sesuai dengan tingkat kesiapan kognitif mereka.",
+      question:
+        "Apa yang telah dipelajari sebagai calon guru selama tahapan PPL Terbimbing dari awal hingga akhir?",
+      answer:
+        "Selama menjalani tahapan PPL Terbimbing di SMA Kristen 1 Salatiga, pelajaran terbesar yang saya peroleh adalah bahwa mengajar tidak sekadar mentransfer baris sintaks atau membagikan slide presentasi. Saya belajar mengintegrasikan kerangka TPACK (Technological Pedagogical Content Knowledge) secara bermakna untuk merespons gaya belajar digital siswa. Pembelajaran harus berpusat sepenuhnya pada siswa (student-centered), di mana rancangan modul ajar, LKPD, dan media kuis online dirajut secara koheren untuk menuntun siswa menemukan sendiri pemecahan masalah (Problem-Based Learning) sesuai dengan tingkat kesiapan kognitif mereka.",
       badge: "Pembelajaran Esensial",
-      icon: <GraduationCap className="w-5 h-5 text-[#33186B]" />
+      icon: <GraduationCap className="w-5 h-5 text-[#33186B]" />,
     },
     {
       id: "aspek-2",
-      question: "Apakah terdapat pengalaman yang menantang dan bagaimana solusi nyata dari permasalahan tersebut?",
-      answer: "Tantangan paling berat di kelas X Fase E adalah kesenjangan kognitif (readiness gap) yang sangat lebar; beberapa siswa sudah terbiasa memecahkan teka-teki logika kognitif komputer, sementara sebagian lainnya kesulitan melakukan pengetikan dasar. Solusi yang saya formulasikan adalah menerapkan Pembelajaran Berdiferensiasi (Differentiated Instruction). Saya membagi kelas menjadi kelompok heterogen dengan menetapkan 'Kartu Peran Spesifik' (Coder, Debugger, Presenter, Documenter) agar setiap anggota berkontribusi merata tanpa ada yang merasa tertinggal. Selain itu, saya merancang LKPD modular dengan scaffolding bertingkat, memberikan panduan intervensi lebih padat bagi kelompok yang melambat, dan memberikan tugas pengayaan kompetitif untuk kelompok berkemampuan cepat.",
+      question:
+        "Apakah terdapat pengalaman yang menantang dan bagaimana solusi nyata dari permasalahan tersebut?",
+      answer:
+        "Tantangan paling berat di kelas X Fase E adalah kesenjangan kognitif (readiness gap) yang sangat lebar; beberapa siswa sudah terbiasa memecahkan teka-teki logika kognitif komputer, sementara sebagian lainnya kesulitan melakukan pengetikan dasar. Solusi yang saya formulasikan adalah menerapkan Pembelajaran Berdiferensiasi (Differentiated Instruction). Saya membagi kelas menjadi kelompok heterogen dengan menetapkan 'Kartu Peran Spesifik' (Coder, Debugger, Presenter, Documenter) agar setiap anggota berkontribusi merata tanpa ada yang merasa tertinggal. Selain itu, saya merancang LKPD modular dengan scaffolding bertingkat, memberikan panduan intervensi lebih padat bagi kelompok yang melambat, dan memberikan tugas pengayaan kompetitif untuk kelompok berkemampuan cepat.",
       badge: "Solusi & Tantangan",
-      icon: <Target className="w-5 h-5 text-[#7360DF]" />
+      icon: <Target className="w-5 h-5 text-[#7360DF]" />,
     },
     {
       id: "aspek-3",
-      question: "Apa umpan balik atau saran konstruktif dalam diskusi refleksi akhir untuk perbaikan tahap PPL Mandiri?",
-      answer: "Umpan balik berharga dari Guru Pamong, Ibu Sri Wahyuni, S.Pd., dan Dosen Pembimbing Lapangan UKSW menekankan pentingnya mempersiapkan rencana mitigasi non-digital orisinal. internet lab sekolah yang sesekali tidak stabil tidak beralasan menghentikan keaktifan kelas. Untuk PPL Mandiri mendatang, saya disarankan mengembangkan media analog kreatif (seperti kartu kuis tempel fisik) sebagai cadangan permainan Quizizz digital, mengasah fleksibilitas manajemen manajemen alokasi sintaks waktu PBL agar transisi antarfase diskusi kelompok lebih dinamis, serta mempertajam variasi instrumen evaluasi diri antarteman (peer-assessment) secara konsisten.",
+      question:
+        "Apa umpan balik atau saran konstruktif dalam diskusi refleksi akhir untuk perbaikan tahap PPL Mandiri?",
+      answer:
+        "Umpan balik berharga dari Guru Pamong, Bapak Endro Febrianto P. Cahyono, S.Kom., dan Dosen Pembimbing Lapangan UKSW menekankan pentingnya mempersiapkan rencana mitigasi non-digital orisinal. internet lab sekolah yang sesekali tidak stabil tidak beralasan menghentikan keaktifan kelas. Untuk PPL Mandiri mendatang, saya disarankan mengembangkan media analog kreatif (seperti kartu kuis tempel fisik) sebagai cadangan permainan Quizizz digital, mengasah fleksibilitas manajemen manajemen alokasi sintaks waktu PBL agar transisi antarfase diskusi kelompok lebih dinamis, serta mempertajam variasi instrumen evaluasi diri antarteman (peer-assessment) secara konsisten.",
       badge: "Saran & Tindak Lanjut",
-      icon: <MessageSquare className="w-5 h-5 text-emerald-600" />
-    }
+      icon: <MessageSquare className="w-5 h-5 text-emerald-600" />,
+    },
   ];
 
   return (
@@ -236,7 +242,7 @@ export default function EPortfolioReflection() {
                       Bagian 2: Konstruktivisme Sosial & Konstruksi Kognitif Mandiri
                     </span>
                     <p className="text-sm md:text-base text-[#33186B]/95 text-justify leading-relaxed font-sans font-medium">
-                      Guna mengontekstualisasikan filosofi luhur tersebut dalam pengajaran modern ilmu komputer pemrograman Python, saya mengintegrasikannya dengan <strong>Teori Konstruktivisme Sosial Lev Vygotsky</strong>. Saya menolak konsepsi kelas pasif tradisional di mana murid diposisikan sebagai wadah kosong penerima dogma teori. Sebaliknya, pembelajaran coding harus dijembatani dalam <em>Zone of Proximal Development</em> (ZPD) melalui skema bimbingan (scaffolding) yang dinamis. Kesalahan penulisan sintaks program komputer (seperti 'IndentationError') tidak boleh dikonotasikan sebagai kegagalan fatal yang pantas mendapat hukuman, melainkan diposisikan sebagai pemicu eksplorasi rasa ingin tahu anak. Melalui scaffolding instruksional yang berstruktur heterogen, siswa dituntun bertukar pandangan dalam tim belajar, menantang nalar kritis mereka sendiri, hingga secara bertahap berhasil memecahkan teka-teki logika kognitif secara mandiri.
+                      Guna mengontekstualisasikan filosofi luhur tersebut dalam pengajaran modern ilmu komputer pemrograman, saya mengintegrasikannya dengan <strong>Teori Konstruktivisme Sosial Lev Vygotsky</strong>. Saya menolak konsepsi kelas pasif tradisional di mana murid diposisikan sebagai wadah kosong penerima dogma teori. Sebaliknya, pembelajaran coding harus dijembatani dalam <em>Zone of Proximal Development</em> (ZPD) melalui skema bimbingan (scaffolding) yang dinamis. Kesalahan penulisan sintaks program komputer (seperti 'IndentationError') tidak boleh dikonotasikan sebagai kegagalan fatal yang pantas mendapat hukuman, melainkan diposisikan sebagai pemicu eksplorasi rasa ingin tahu anak. Melalui scaffolding instruksional yang berstruktur heterogen, siswa dituntun bertukar pandangan dalam tim belajar, menantang nalar kritis mereka sendiri, hingga secara bertahap berhasil memecahkan teka-teki logika kognitif secara mandiri.
                     </p>
                   </div>
 

@@ -147,28 +147,37 @@ export const LAMPIRAN_8_ITEMS: AssessmentItem[] = [
 export const CYCLE_FEEDBACK = {
   cycle1: {
     title: "Siklus I (Awal Konstruksi Karakter)",
-    pamong: "Ibu Sri Wahyuni, S.Pd. (Guru Pamong SMA Kristen 1 Salatiga)",
-    comment: "Penyusunan modul sudah baik, namun pengelolaan sintaks PBL di kelas masih kaku sehingga diskusi molor dari jadwal. Manajemen kelas perlu dipertegas agar siswa tidak terlalu gaduh saat pengerjaan kelompok kelompok kecil.",
-    improvement: "Fokus pada pembuatan guideline diskusi kelompok yang rigid dan latihan modulasi nada suara.",
+    pamong:
+      "Bapak Endro Febrianto P. Cahyono, S.Kom. (Guru Pamong SMA Kristen 1 Salatiga)",
+    comment:
+      "Penyusunan modul sudah baik, namun pengelolaan sintaks PBL di kelas masih kaku sehingga diskusi molor dari jadwal. Manajemen kelas perlu dipertegas agar siswa tidak terlalu gaduh saat pengerjaan kelompok kelompok kecil.",
+    improvement:
+      "Fokus pada pembuatan guideline diskusi kelompok yang rigid dan latihan modulasi nada suara.",
     averageL7: 80.6,
-    averageL8: 81.2
+    averageL8: 81.2,
   },
   cycle2: {
     title: "Siklus II (Transformasi & Adaptasi)",
-    pamong: "Ibu Sri Wahyuni, S.Pd. (Guru Pamong SMA Kristen 1 Salatiga)",
-    comment: "Peningkatan yang sangat signifikan terlihat pada penataan skenario pembelajaran. Siswa sangat antusias dengan kuis Canva interaktif. Manajemen waktu sudah membaik, bimbingan kelompok sudah merata secara bertahap.",
-    improvement: "Mulai sisipkan pertanyaan pemantik HOTS di awal diskusi kelompok, bukan hanya di akhir materi.",
+    pamong:
+      "Bapak Endro Febrianto P. Cahyono, S.Kom. (Guru Pamong SMA Kristen 1 Salatiga)",
+    comment:
+      "Peningkatan yang sangat signifikan terlihat pada penataan skenario pembelajaran. Siswa sangat antusias dengan kuis Canva interaktif. Manajemen waktu sudah membaik, bimbingan kelompok sudah merata secara bertahap.",
+    improvement:
+      "Mulai sisipkan pertanyaan pemantik HOTS di awal diskusi kelompok, bukan hanya di akhir materi.",
     averageL7: 88.8,
-    averageL8: 89.8
+    averageL8: 89.8,
   },
   cycle3: {
     title: "Siklus III (Kematangan Profesional)",
-    pamong: "Ibu Sri Wahyuni, S.Pd. (Guru Pamong SMA Kristen 1 Salatiga)",
-    comment: "Sempurna dan luar biasa kondusif! Diana telah menunjukkan kematangan rasa percaya diri tinggi sebagai guru seutuhnya. Integrasi TPACK terwujud sangat natural, suasana inklusif, hasil asesmen autentik terpetakan dengan sangat rapi.",
-    improvement: "Pertahankan ketulusan hati ini serta tularkan energi pembelajaran inovatif ini ke komunitas guru MGMP.",
+    pamong:
+      "Bapak Endro Febrianto P. Cahyono, S.Kom. (Guru Pamong SMA Kristen 1 Salatiga)",
+    comment:
+      "Sempurna dan luar biasa kondusif! Diana telah menunjukkan kematangan rasa percaya diri tinggi sebagai guru seutuhnya. Integrasi TPACK terwujud sangat natural, suasana inklusif, hasil asesmen autentik terpetakan dengan sangat rapi.",
+    improvement:
+      "Pertahankan ketulusan hati ini serta tularkan energi pembelajaran inovatif ini ke komunitas guru MGMP.",
     averageL7: 96.4,
-    averageL8: 96.5
-  }
+    averageL8: 96.5,
+  },
 };
 
 export const TEACHER_MISI: TeacherMission[] = [
